@@ -67,16 +67,4 @@ async def tob(tob, arg):
             response = "Cabbage get fukt (" + str(diceroll) + ")"
     await tob.send(response)
 
-# ----- CHAMBERS OF XERIC
-@bot.command(name='cox', help='Returns the loot from Chambers of Xeric.')
-async def cox(cox):
-    cox_loot = [
-        'Twisted Bow',
-        'Kodai Insignia',
-        "Dexterous Prayer Scroll"
-    ]
-
-    response = random.choice(cox_loot)
-    await cox.send(response)
-
 bot.run(TOKEN)
