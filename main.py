@@ -21,7 +21,7 @@ async def tob(tob, arg):
         legguards = 0
         hilts = 0
         cabbages = 0
-        for i in range(0, int(arg)+1):
+        for i in range(0, int(arg)):
             diceroll = random.uniform(0, 173)
             if diceroll <= 1:
                 scythes += 1
