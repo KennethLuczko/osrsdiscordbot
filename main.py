@@ -1,5 +1,6 @@
 import os
 import random
+import json
 
 from discord.ext import commands
 from dotenv import load_dotenv
@@ -21,7 +22,7 @@ async def tob(tob, arg):
         legguards = 0
         hilts = 0
         cabbages = 0
-        for i in range(0, int(arg)+1):
+        for i in range(0, int(arg)):
             diceroll = random.uniform(0, 173)
             if diceroll <= 1:
                 scythes += 1
@@ -67,16 +68,14 @@ async def tob(tob, arg):
             response = "Cabbage get fukt (" + str(diceroll) + ")"
     await tob.send(response)
 
-# ----- CHAMBERS OF XERIC
-@bot.command(name='cox', help='Returns the loot from Chambers of Xeric.')
-async def cox(cox):
-    cox_loot = [
-        'Twisted Bow',
-        'Kodai Insignia',
-        "Dexterous Prayer Scroll"
-    ]
+# ------ GENERAL GRAARDOR (BANDOS)
+@bot.command(name='Bandos', help='Returns the loot from Chambers of Xeric.')
+async def Bandos(Bandos):
+    f = open('bandosLoot.json')
+    jsondata = json.load(f)
+    for i in range (0, len(jsondata["bandosLoot"]["pool"])):
+        print(f'{jsondata["bandosLoot"]["pool"][i]["weight"]}')
 
-    response = random.choice(cox_loot)
-    await cox.send(response)
+  #  await cox.send(response)
 
 bot.run(TOKEN)
