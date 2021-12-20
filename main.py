@@ -121,7 +121,7 @@ async def tob(tob, arg):
         else:
             response = "Cabbage get fukt (" + str(diceroll) + ")"
     await tob.send(response)
-
+    
 # ------ GENERAL GRAARDOR (BANDOS)
 @bot.command(name='Bandos', help='Returns the loot from General Graardor.')
 async def Bandos(Bandos, *args):
@@ -189,5 +189,4 @@ async def Bandos(Bandos, *args):
 
 
     await Bandos.send(response)
-
 bot.run(TOKEN)
