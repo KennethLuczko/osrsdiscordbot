@@ -1,0 +1,131 @@
+{
+    "bandosLoot": {
+        "_TODO_":"Add Quantities, SubLists",
+       
+
+
+        "GeneralGraardorArmorTable": [
+            {"item":"Bandos Chestplate",
+            "weight": 1},
+            {"item":"Bandos Tassets",
+            "weight": 1},
+            {"item":"Bandos Boots",
+            "weight": 1}
+        ],
+        "uniqueTable": [
+            {"item":"GeneralGraardorArmorTable",
+            "weight":4,
+            "table": true},
+            {"item":"shardTable",
+            "weight":2,
+            "table": true},
+            {"item":"Bandos Hilt",
+            "weight":1,
+            "table": false},
+            {"item":"Coins",
+            "weight": 5,
+            "table": false}
+        ],
+        "sergeantUniqueTable":[
+            {"item":"Coins",
+            "weight": 124},
+            {"item":"GeneralGraardorArmorTable",
+            "weight": 3}
+        ],
+        "sergeantShardTable":[
+            {"item":"Coins",
+            "weight": 9},
+            {"item":"shardTable",
+            "weight": 3}
+        ],
+
+
+        "sergeantTable": [
+            {"item":"sergeantUniqueTable",
+            "weight":1},
+            {"item":"sergeantShardTable",
+            "weight":1},
+            {"item":"Steel Dart",
+            "weight":8},
+            {"item":"Nature Rune",
+            "weight":8},
+            {"item":"Cosmic Rune",
+            "weight":8},
+            {"item":"Shark",
+            "weight":8},
+            {"item":"Chilli Potato",
+            "weight":8},
+            {"item":"Steel Arrow",
+            "weight":7},
+            {"item":"Coins",
+            "weight":66},
+            {"item":"Limpwurt Root",
+            "weight":8},
+            {"item":"Combat Potion(3)",
+            "weight":2},
+            {"item":"Super Strength(3)",
+            "weight":2},
+            
+            {"bonus":"Clue Scroll (Hard)",
+            "chance": 128},
+            {"bonus":"Goblin Champion Scroll",
+            "chance":5000},
+
+            {"guaranteed":"Bones"}
+        ],
+
+
+
+        "pool": [
+            {"item":"uniqueTable",
+            "weight": 3},
+            {"item":"Rune Longsword",
+            "weight": 8},
+            {"item":"Rune Greatsword",
+            "weight": 8},
+            {"item":"Rune Platemail",
+            "weight": 8},
+            {"item":"Rune Pickaxe",
+            "weight": 6},
+            {"item":"Coins",
+            "weight": 28},
+            {"item":"Grimy Snapdragon",
+            "weight": 8},
+            {"item":"Snapdragon seed",
+            "weight": 8},
+            {"item":"Super Restore(4)",
+            "weight": 8},
+            {"item":"Adamantite Ore",
+            "weight": 8},
+            {"item":"Coal",
+            "weight": 8},
+            {"item":"Magic Logs",
+            "weight": 8},
+            {"item":"Nature Rune",
+            "weight": 8},
+            {"item":"GWGemTable",
+            "weight": 2},
+            {"item":"GWRareDropTable",
+            "weight": 8},
+
+            
+
+
+            {"bonus":"Clue Scroll (Elite)",
+            "chance": 250},
+            {"bonus":"Long Bone",
+            "chance": 400},
+            {"bonus":"Pet General Graardor",
+            "chance": 5000},
+            {"bonus":"Curved Bone",
+            "chance": 5013},
+
+            {"guaranteed":"Big Bones"},
+            {"guaranteed":"sergeantTable"},
+            {"guaranteed":"sergeantTable"},
+            {"guaranteed":"sergeantTable"}
+
+
+        ]
+    }
+}
