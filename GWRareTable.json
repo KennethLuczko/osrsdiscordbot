@@ -1,0 +1,87 @@
+{
+    "GWMegaRareTable": [
+        {"item":"Coins",
+        "weight": 113},
+        {"item":"Rune Spear",
+        "weight": 8},
+        {"item":"Shield Left Half",
+        "weight": 4},
+        {"item":"Dragon Spear",
+        "weight": 3}],
+    
+    "GWGemTable": [
+        {"item":"Coins",
+        "weight": 63},
+        {"item":"Uncut Sapphire",
+        "weight": 32},
+        {"item":"Uncut Emerald",
+        "weight": 16},
+        {"item":"Uncut Ruby",
+        "weight": 8},
+        {"item":"Chaos Talisman",
+        "weight": 3},
+        {"item":"Uncut Diamond",
+        "weight": 2},
+        {"item":"Rune Javelin",
+        "weight": 1},
+        {"item":"Loop Half of Key",
+        "weight": 1},
+        {"item":"Tooth Half of Key",
+        "weight": 1},
+        {"item":"GWMegaRareTable",
+        "weight": 1}],
+
+    "shardTable": [
+        {"item":"Godsword Shard 1",
+        "weight": 1},
+        {"item":"Godsword Shard 2",
+        "weight": 1},
+        {"item":"Godsword Shard 3",
+        "weight": 1}],
+
+    "GWRareDropTable": [
+        {"item":"Nature Rune",
+        "weight": 3},
+        {"item":"Adamant Javelin",
+        "weight": 2},
+        {"item":"Death Rune",
+        "weight": 2},
+        {"item":"Law Rune",
+        "weight": 2},
+        {"item":"Rune Arrow",
+        "weight": 2},
+        {"item":"Steel Arrow",
+        "weight": 2},
+        
+        {"item":"Rune Greatsword",
+        "weight": 3},
+        {"item":"Rune Battleaxe",
+        "weight": 3},
+        {"item":"Rune Square Shield",
+        "weight": 2},
+        {"item":"Dragon Medium Helm",
+        "weight": 1},
+        {"item":"Rune Kite Shield",
+        "weight": 1},
+        {"item":"Rune Sword",
+        "weight": 5},
+
+        {"item":"Coins",
+        "weight": 20},
+        {"item":"Loop Half of Key",
+        "weight": 21},
+        {"item":"Tooth Half of Key",
+        "weight": 20},
+        {"item":"Dragonstone",
+        "weight": 2},
+        {"item":"Silver Ore",
+        "weight": 2},
+
+        {"item":"GWGemTable",
+        "weight": 20},
+        {"item":"GWMegaRareTable",
+        "weight": 15}
+
+    ]
+
+}
