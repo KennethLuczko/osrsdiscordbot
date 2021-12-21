@@ -1,5 +1,4 @@
 {
-    "bandosLoot": {
         "_TODO_":"Add Quantities, SubLists",
        
 
@@ -76,7 +75,7 @@
 
 
 
-        "pool": [
+        "generalTable": [
             {"item":"uniqueTable",
             "weight": 3},
             {"item":"Rune Longsword",
@@ -127,5 +126,5 @@
 
 
         ]
-    }
+    
 }
